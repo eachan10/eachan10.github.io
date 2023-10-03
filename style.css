@@ -1,0 +1,21 @@
+.float-child {
+    width: 500px;
+    float: left;
+    padding: 15px;
+}
+
+.keypad-img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.mm-video {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+.float-parent {
+    padding: 20px;
+}

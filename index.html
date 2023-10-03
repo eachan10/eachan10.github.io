@@ -11,10 +11,21 @@
     <div class="float-parent">
       <div class="float-child">
         <h3>Analog keypad</h3>
+        <p>
+          This was programmed in C using the Raspberry Pi SDK, FreeRTOS kernel, and TinyUSB libary.
+          The circuit schematic was made in KiCad and the switch housing designed in SolidWorks. The
+          keyboard switches have magnets which are detected with hall effect sensors to determine their
+          positions.
+        </p>
         <img src="assets/keypad.jpg" class="keypad-img">
       </div>
       <div class="float-child">
-        <h3>Micromouse during PD controller parameter tuning</h3>
+        <h3>Micromouse PD controller parameter tuning</h3>
+        <p>
+          This is an autonomous maze-solving robot that uses the stm32 Blue Pill. It uses IR sensors and
+          motor encoders as inputs to the PD algorithm to control its movement. A floodfill algorithm is
+          used to solve the maze.
+        </p>
         <video class="mm-video" preload="auto" controls>
           <source src="assets/micromouse.mp4" type="video/mp4">
         </video>

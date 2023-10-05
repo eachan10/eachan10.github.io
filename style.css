@@ -1,20 +1,25 @@
 .float-child {
-    width: 420px;
     float: left;
     padding: 15px;
     max-width: 100%;
 }
 
-.keypad-img {
-    width: 400px;
+.keypad {
+    width: 250px;
     max-width: 100%;
     height: auto;
 }
 
-.mm-video {
-    width: 350px;
+.mm {
+    width: 250px;
     max-width: 100%;
     height: auto;
+}
+
+.fourier {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
 }
 
 .float-parent {

@@ -11,24 +11,34 @@
     <div class="float-parent">
       <div class="float-child">
         <h3>Analog keypad</h3>
-        <p>
+        <p class="keypad">
           This was programmed in C using the Raspberry Pi SDK, FreeRTOS kernel, and TinyUSB libary.
           The circuit schematic was made in KiCad and the switch housing designed in SolidWorks. The
           keyboard switches have magnets which are detected with hall effect sensors to determine their
           positions.
         </p>
-        <img src="assets/keypad.jpg" class="keypad-img">
+        <img src="assets/keypad.jpg" class="keypad">
       </div>
       <div class="float-child">
-        <h3>Micromouse PD controller parameter tuning</h3>
-        <p>
+        <h3>Micromouse </h3>
+        <p class="mm">
           This is an autonomous maze-solving robot that uses the stm32 Blue Pill. It uses IR sensors and
           motor encoders as inputs to the PD algorithm to control its movement. A floodfill algorithm is
-          used to solve the maze.
+          used to solve the maze. This footage was taken while I was tuning the parameters of the PD
+          controller
         </p>
-        <video class="mm-video" preload="auto" controls>
+        <video class="mm" preload="auto" controls>
           <source src="assets/micromouse.mp4" type="video/mp4">
         </video>
+      </div>
+      <div class="float-child">
+        <h3>Fourier Series approximation</h3>
+        <p class="fourier">
+          This is a script that finds the fourier series approximation of a function defined in the script
+          and displays it with matplotlib. The number of terms in the fourier series approximation can be
+          tuned to change the accuracy of the approximation.
+        </p>
+        <img src="assets/fourier_series.png" class="fourier">
       </div>
     </div>
 
